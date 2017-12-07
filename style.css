@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: rgb(197,222,234); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(197,222,234,1) 0%, rgba(138,187,215,1) 31%, rgba(6,109,171,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(197,222,234,1) 0%,rgba(138,187,215,1) 31%,rgba(6,109,171,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#clock_face {
+    position: relative;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hand {
+    display: block;
+    height: 4px;
+    width: 43%;
+    right: 50%;
+    position: absolute;
+    background-color: black;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    /* transition-timing-function: cubic-bezier(0.38, 1.08, 0.99, 2.7); */
+}
+
+#hours_hand {
+    
+}
+
+#minutes_hand {
+    
+}
+
+#seconds_hand {
+    
+}
